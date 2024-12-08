@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الروابط</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#download">تحميل</a></li>
+                <li><a href="#discord">رابط الدسكورد</a></li>
+                <li><a href="#about">تعريف عن الموقع</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="download">
+            <h1>تحميل</h1>
+            <p>قم بتحميل الروابط التي تحتاجها بكل سهولة من هنا.</p>
+            <button onclick="navigateToLinksPage()">اضغط هنا للتحميل</button>
+        </section>
+
+        <section id="discord">
+            <h1>رابط الدسكورد</h1>
+            <p>انضم إلى مجتمعنا على الدسكورد للحصول على المزيد من المعلومات والدعم.</p>
+            <button><a href="https://discord.gg/kFxNEGvDtZ" target="_blank">رابط الدسكورد</a></button>
+        </section>
+
+        <section id="about">
+            <h1>تعريف عن الموقع</h1>
+            <p>هذا الموقع مخصص لجمع الروابط المفيدة والمهمة لتسهيل الوصول إليها.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Rechte Cheat © 2024 جميع الحقوق محفوظة</p>
+    </footer>
+    <script>
+        function navigateToLinksPage() {
+            window.location.href = 'download_links.html';
+        }
+    </script>
+</body>
+</html>
